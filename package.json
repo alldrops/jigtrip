@@ -1,0 +1,15 @@
+{
+  "name": "jigtrip",
+  "description": "JigTrip - Projeto Integrador",
+  "author": "André Lopes <andre.22.lopes@gmail.com>, Felipe Alvares <felipec.alvares@gmail.com>",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "~3.4.4",
+    "jade": "~0.35.0",
+    "express-load": "~1.1.7"
+  }
+}

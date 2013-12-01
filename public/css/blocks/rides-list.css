@@ -1,0 +1,226 @@
+.rides-container {
+	float: left;
+	width: 940px;
+	position: relative;
+}
+
+.ride-item {
+	float: left;
+	width: 900px;
+	padding: 20px;
+	background: #FFF;
+	border-radius: 5px;
+	margin-top: 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+.ride-item:first-child {
+	margin-top: 0;
+}
+
+.img-container {
+	float: left;
+	width: 55px;
+	margin-right: 20px;
+}
+
+.img-container img {
+	max-width: 55px;
+	width: auto;
+	height: 55px;
+	max-height: 55px;
+	display: block;
+}
+
+.user-info {
+	float: left;
+	height: 100%;
+	width: 230px;
+	position: relative;
+}
+
+.user-info h2.user-name {
+	float: left;
+	width: 230px;
+	font-family: "SourceSansBold";
+	font-size: 18px;
+	color: #31aa6f;
+	line-height: 20px;
+}
+
+.user-info .reviews {
+	float: left;
+	clear: right;
+	color: #d1d1d1;
+	font-size: 12px;
+	width: 230px;
+	line-height: 15px;
+}
+
+.user-info .general-info {
+	float: left;
+	width: 230px;
+	font-size: 14px;
+	color: #32aa6f;
+	line-height: 15px;
+	margin-top: 5px;
+}
+
+.user-info .general-info span {
+	float: left;
+	position: relative;
+	margin-left: 15px;
+}
+
+.user-info .general-info span.user-connections:before {
+	position: absolute;
+	content: " ";
+	left: -15px;
+	top: 2px;
+	width: 10px;
+	height: 10px;
+	background: url(../../img/icon-connection-green.png) no-repeat center center;
+}
+
+.user-info .user-info-button {
+	float: left;
+	margin-top: 7px;
+	height: 20px;
+	padding: 0 8px;
+	line-height: 20px;
+	color: #FFF;
+	font-size: 12px;
+	position: relative;
+	text-align: center;
+}
+
+.user-info .user-info-button.btn-message {
+	background: #32aa6f;
+	padding-left: 35px;
+	margin-right: 10px;
+}
+
+.user-info .user-info-button.btn-message:before {
+	position: absolute;
+	content: " ";
+	left: 9px;
+	top: 5px;
+	width: 16px;
+	height: 10px;
+	background: url(../../img/icon-messages.png) no-repeat center center;
+	background-size: cover;
+}
+
+.user-info .user-info-button.btn-share {
+	background: #2556a1;
+	font-family: "SourceSansBold";
+}
+
+.ride-info {
+	float: left;
+	width: 595px;
+	height: 100%;
+}
+
+.ride-info .route-container {
+	float: left;
+	position: relative;
+	width: 410px;
+	margin-left: 15px;
+}
+
+.ride-info .city-container {
+	float: left;
+	text-align: center;
+	width: 160px;
+}
+
+.ride-info .city-container.from {
+	margin-right: 90px;
+}
+
+.ride-info .city-container .location {
+	float: left;
+	width: 100%;
+	text-align: center;
+	font-family: "SourceSansBold";
+	font-size: 20px;
+	color: #32aa6f;
+	margin: 10px 0;
+}
+
+.ride-info .city-container .location-icon {
+	width: 25px;
+	height: 25px;
+	display: block;
+	background: #32aa6f;
+	clear: both;
+	margin: 0 auto;
+	border-radius: 15px;
+	position: relative;
+}
+
+.ride-info .city-container.from .location-icon:before {
+	position: absolute;
+	content: " ";
+	left: 4px;
+	top: 4px;
+	width: 13px;
+	height: 13px;
+	border: 2px solid #FFF;
+	border-radius: 9px;
+}
+
+.ride-info .city-container.from .location-icon:after {
+	position: absolute;
+	content: " ";
+	left: 25px;
+	top: 10px;
+	width: 225px;
+	height: 3px;
+	background: #32aa6f;
+}
+
+.ride-info .price-container {
+	float: left;
+	width: 130px;
+	height: 100%;
+}
+
+.ride-info .price-container span {
+	float: left;
+	width: 100%;
+	text-align: center;
+	color: #32aa6f;
+	font-size: 12px;
+}
+
+.ride-info .price-container span.value {
+	line-height: 40px;
+	font-size: 25px;
+	font-family: "SourceSansBold";
+	margin-top: 10px;
+}
+
+.ride-item .btn-visualize {
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 20px;
+	height: 100%;
+	background: url(../../img/dots-link.png) no-repeat center center;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	-ms-transition: all 0.2s linear;
+	transition: all 0.2s linear;
+}
+
+.ride-item .btn-visualize.ride-offer {
+	background-color: #288356;
+}
+
+.ride-item .btn-visualize.ride-ask {
+	background-color: #38c27f;
+}

@@ -1,0 +1,760 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Sour",
+				"SourceSansRegular"
+			],
+			[
+				"Source",
+				"SourceSansBold"
+			],
+			[
+				"Helvet",
+				"HelveticaNeueRegular"
+			],
+			[
+				"tran",
+				"transparent"
+			],
+			[
+				"Myri",
+				"MyriadWebProRegular"
+			],
+			[
+				"margi-",
+				"margin-top"
+			],
+			[
+				"mari",
+				"margin-bottom"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"fi",
+				"first"
+			],
+			[
+				"html",
+				"htmlPag"
+			],
+			[
+				"lengh",
+				"lengthBanner"
+			],
+			[
+				"len",
+				"lengthBanner"
+			],
+			[
+				"nor",
+				"no-repeat"
+			],
+			[
+				"contin",
+				"container-frete"
+			],
+			[
+				"font-sty",
+				"font-style"
+			],
+			[
+				"d",
+				"d-container-conta"
+			],
+			[
+				"html_carous",
+				"html_carousel_overlay"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"bore",
+				"border"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"itens",
+				"itens_carrinho"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"id",
+				"idProjeto"
+			],
+			[
+				"i",
+				"item"
+			],
+			[
+				"pontilhado",
+				"pontilhado-preto2"
+			],
+			[
+				"linha-",
+				"linha-paginacao3"
+			],
+			[
+				"linha",
+				"linha-paginacao2"
+			],
+			[
+				"linha-pa",
+				"linha-paginacao1"
+			],
+			[
+				"pontilha",
+				"pontilhado-ativo1"
+			],
+			[
+				"dv",
+				"divFotos"
+			],
+			[
+				"pading",
+				"padding-top"
+			],
+			[
+				"humani",
+				"humanist521_bold"
+			],
+			[
+				"huma",
+				"humanist521"
+			],
+			[
+				"human",
+				"humanist521_bold"
+			],
+			[
+				"overlay",
+				"overlay_natal"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "views/templates/main.jade",
+			"settings":
+			{
+				"buffer_size": 341,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/templates/internal.jade",
+			"settings":
+			{
+				"buffer_size": 98,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/templates/side.jade",
+			"settings":
+			{
+				"buffer_size": 37,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/home/index.jade",
+			"settings":
+			{
+				"buffer_size": 105,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app.js",
+			"settings":
+			{
+				"buffer_size": 376,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"set ejs",
+				"Set Syntax: Java Server Page (JSP)"
+			],
+			[
+				"install pack",
+				"Package Control: Install Package"
+			],
+			[
+				"set html",
+				"Set Syntax: HTML"
+			],
+			[
+				"install packa",
+				"Package Control: Install Package"
+			],
+			[
+				"set jade",
+				"Set Syntax: Jade"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"set json",
+				"Set Syntax: JSON"
+			],
+			[
+				"set css",
+				"Set Syntax: CSS"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"set xml",
+				"Set Syntax: XML"
+			],
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"set java",
+				"Set Syntax: Java"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Projetos/jigTrip/jigtrip.com.br/views/templates/header.jade",
+		"/C/Projetos/jigTrip/jigtrip.com.br/views/templates/footer.jade",
+		"/C/Projetos/jigTrip/jigtrip.com.br/views/templates/external.jade",
+		"/C/Projetos/jigTrip/jigtrip.com.br/app.js",
+		"/C/Projetos/jigTrip/jigtrip.com.br/routes/home.js",
+		"/C/Projetos/jigTrip/jigtrip.com.br/controllers/home.js",
+		"/C/Projetos/jigTrip/jigtrip.com.br/views/templates/main.jade",
+		"/C/Projetos/jigTrip/jigtrip.com.br/views/home/index.ejs",
+		"/C/Projetos/jigTrip/jigtrip.com.br/views/templates/internal.ejs",
+		"/C/Projetos/jigTrip/jigtrip.com.br/views/templates/side.ejs",
+		"/C/Projetos/jigTrip/jigtrip.com.br/views/templates/external.ejs",
+		"/C/Projetos/jigTrip/jigtrip.com.br/views/templates/main.ejs",
+		"/C/Projetos/jigTrip/jigtrip.com.br/views/templates/internal.jade",
+		"/C/Projetos/jigTrip/jigtrip.com.br/views/home/index.jade",
+		"/C/Projetos/jigTrip/jigtrip.com.br/views/templates/footer.ejs",
+		"/C/Projetos/jigTrip/jigtrip.com.br/views/templates/header.ejs",
+		"/C/Projetos/jigTrip/jigtrip.com.br/views/templates/main-side.jade",
+		"/C/Projetos/jigTrip/jigtrip.com.br/views/main.jade",
+		"/C/Projetos/jigTrip/jigtrip.com.br/package.json",
+		"/C/Users/André/Documents/Andre/Unopar/Sexto Semestre/Empreendedorismo/apresentacaoJigTrip/index.html",
+		"/C/Projetos/jigTrip/jigtrip.com.br/server.js",
+		"/C/Projetos/jigTrip/Prototipos/css/editar-perfil.css",
+		"/C/Projetos/jigTrip/Prototipos/editar-perfil.html",
+		"/C/Projetos/jigTrip/Prototipos/completar-cadastro.html",
+		"/C/Projetos/jigTrip/Prototipos/home.html",
+		"/C/Projetos/jigTrip/Prototipos/cadastro.html",
+		"/C/Projetos/jigTrip/Prototipos/css/completar-cadastro.css",
+		"/C/Projetos/jigTrip/Prototipos/alertas.html",
+		"/C/Projetos/jigTrip/Prototipos/css/padrao-internas.css",
+		"/C/Projetos/jigTrip/Prototipos/busca.html",
+		"/C/Projetos/jigTrip/Prototipos/css/busca.css",
+		"/C/Projetos/jigTrip/Prototipos/css/alertas.css",
+		"/C/Projetos/jigTrip/Prototipos/css/cadastro.css",
+		"/C/Projetos/jigTrip/Prototipos/css/home.css",
+		"/C/Projetos/jigTrip/Prototipos/css/login.css",
+		"/C/Projetos/jigTrip/Prototipos/css/prehome.css",
+		"/C/Projetos/jigTrip/Prototipos/login.html",
+		"/C/Projetos/jigTrip/Prototipos/css/padrao.css",
+		"/C/Projetos/jigTrip/Prototipos/index.html",
+		"/C/Projetos/jigTrip/Prototipos/css/reset.css",
+		"/C/Projetos/jigTrip/Prototipos/fonts/stylesheet.css",
+		"/C/Users/André/Desktop/ULTIMA_RESENHA.txt",
+		"/C/Projetos/Bonus10/Views/Shared/MasterInterna.Master",
+		"/C/Projetos/Bonus10/Views/Shared/MasterPrincipal.Master",
+		"/C/Users/André/Documents/Andre/Unopar/Quinto Semestre/Projeto Integrador/Introdução 16-03-2013/conclusao.xml",
+		"/C/Users/André/Documents/Andre/Unopar/Quinto Semestre/Projeto Integrador/Introdução 16-03-2013/objetivo.xml",
+		"/C/Users/André/Documents/Andre/Unopar/Quinto Semestre/Projeto Integrador/Introdução 16-03-2013/introducao.xml",
+		"/C/Users/André/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.IE5/RL6US0FA/all.min.css",
+		"/C/Users/André/Desktop/resenha_perini3.txt",
+		"/C/Projetos/IdeiaBrasil/Archibox/site/design.php",
+		"/C/Projetos/IdeiaBrasil/Archibox/site/sobre.php",
+		"/C/Projetos/IdeiaBrasil/Archibox/site/js/index.js",
+		"/C/Users/André/Documents/GitHub/analytics-adm/inicial.html",
+		"/C/Users/André/Documents/GitHub/analytics-adm/js/inicial.js",
+		"/C/Users/André/Documents/GitHub/analytics-adm/css/inicial.css",
+		"/C/Projetos/Teste_FTI/css/padrao.css",
+		"/C/Projetos/Teste_FTI/index.html",
+		"/C/Users/André/Downloads/trabalho_perini_planejamento.xml",
+		"/C/Users/André/Documents/Andre/Unopar/Sexto Semestre/Empreendedorismo/Trabalho_1_feito.txt",
+		"/C/Users/André/Desktop/ed-1.txt",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/famacartonagens.com.br/index.html",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/famacartonagens.com.br/css/colorbox.css",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/famacartonagens.com.br/detalhes-produto2.html",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/famacartonagens.com.br/detalhes-produto3.html",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/famacartonagens.com.br/empresa.html",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/famacartonagens.com.br/estrutura.html",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/famacartonagens.com.br/produtos.html",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/famacartonagens.com.br/detalhes-produto1.html",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/famacartonagens.com.br/diferenciais.html",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/famacartonagens.com.br/js/estrutura.js",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/famacartonagens.com.br/js/empresa.js",
+		"/C/Users/André/Downloads/colorbox-master/example1/index.html",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/famacartonagens.com.br/js/produtos.js",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/famacartonagens.com.br/js/detalhes-produto.js",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/famacartonagens.com.br/css/detalhes-produto.css",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/famacartonagens.com.br/css/produtos.css",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/famacartonagens.com.br/css/index.css",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/famacartonagens.com.br/js/index.js",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/famacartonagens.com.br/js/plugins.js",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ropel/site/js/index.js",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ropel/site/js/plugins.js",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/famacartonagens.com.br/css/diferenciais.css",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/famacartonagens.com.br/css/padrao.css",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/famacartonagens.com.br/css/estrutura.css",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/famacartonagens.com.br/css/empresa.css",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/famacartonagens.com.br/famacartonagens.com.br.zip",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ControlCenter/index.html",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ControlCenter/js/padrao.js",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ControlCenter/css/padrao.css",
+		"/C/Users/André/Desktop/Myriad Web Pro/myriad-web-pro-bold.css",
+		"/C/Users/André/Desktop/Myriad Web Pro/myriad-web-pro-regular.css",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ControlCenter/js/plugins.js",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ControlCenter/js/libs/jquery.tools.min.js",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ControlCenter/css/flexslider.css",
+		"/C/Projetos/ControlCenter/css/padrao.css",
+		"/C/Projetos/ControlCenter/index.html",
+		"/C/Projetos/IdeiaBrasil/Archibox/site/contato.php",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ropel/site/js/busca.js",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ropel/site/css/busca.css",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ropel/site/busca.html",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ropel/site/css/atendimento.css",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ropel/site/js/atendimento.js",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ropel/site/atendimento.html",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ropel/site/js/padrao.js",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ropel/site/css/padrao.css",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ropel/site/css/flexslider.css",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ropel/site/index.html",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ropel/site/js/libs/jquery.flexslider-min.js",
+		"/C/Users/André/Downloads/woothemes-FlexSlider-version-2.1-7-ga4647ed/woothemes-FlexSlider-a4647ed/jquery.flexslider-min.js",
+		"/C/Users/André/Downloads/woothemes-FlexSlider-version-2.1-7-ga4647ed/woothemes-FlexSlider-a4647ed/flexslider.css",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ropel/site/css/index.css",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ropel/site/minha-conta.html",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ropel/site/js/minhaconta.js",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ropel/site/carrinho.html",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ropel/site/css/carrinho.css",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ropel/site/js/carrinho.js",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ropel/site/produtos-detalhes.html",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ropel/site/js/produtos-detalhes.js",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ropel/site/css/produtos-detalhes.css",
+		"/C/Users/André/Documents/Andre/Unopar/Quinto Semestre/Projeto Integrador/2. LISTAGEM DOS REQUISITOS FUNCIONAIS E NÃO FUNCIO",
+		"/C/Users/André/Documents/Andre/Unopar/Quinto Semestre/Projeto Integrador/1. DESCRIÇÃO DO SISTEMA PROPOSTO",
+		"/C/Users/André/Documents/Andre/Unopar/Quinto Semestre/Projeto Integrador/trabalho_entregue_etapa2.doc",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ropel/site/css/minhaconta.css",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ropel/site/cadastro.html",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ropel/site/login.html",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ropel/site/css/login.css",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ropel/site/como-comprar.html",
+		"/C/Program Files (x86)/Zend/Apache2/htdocs/ropel/site/css/como-comprar.css"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"h2",
+			"type=\"text",
+			"background: rgba(255, 255, 255, 0.8);",
+			".barra-topo",
+			"D91E76",
+			"</span>",
+			"<span>",
+			"sexo",
+			"form-login",
+			"login",
+			"buscar-carona",
+			"source_sans_proregular",
+			"futurabold",
+			"source_sans_probold",
+			"font-weight: normal;",
+			"url('",
+			"section",
+			"dev.nbr",
+			".dev.nbr",
+			"src=\"",
+			"graph-info",
+			"box1",
+			"37px",
+			"green",
+			"conector",
+			"href=\"img/estrutura/",
+			"href=\"#\">",
+			"empresa",
+			"url(images",
+			"href=\"produtos.html\"",
+			"corte_envoltoria",
+			"envoltoria",
+			"data-img=",
+			"href=\"#\"",
+			"info-produto",
+			".paginacao-prod",
+			"container-produto",
+			"<h3>Nome do Produto</h3>\n								<p>\n									Descrição do produto, embalagem especial  com tamanho padrão...\n								</p>",
+			".box-carousel-empresa",
+			"src=\"bg-box-prod-inicial.png\"",
+			"href=\"#\"",
+			".box-carousel-empresa",
+			"#carousel-fornecedores",
+			"div",
+			";\n",
+			"background: rgba(",
+			"background: rgba",
+			"empresa",
+			"container-carousel-destaque",
+			"produtos",
+			"ambiente",
+			"30px",
+			"url(",
+			"family: 'MyriadWebProRegular';\n    src: url('",
+			"http://lorempixel.com/125/125",
+			"padding",
+			"Início",
+			"section",
+			"D91E76",
+			"inside",
+			"infos",
+			"footer",
+			"marcas",
+			"#carousel-banner ul",
+			"2",
+			"banner",
+			"paginacao-banner",
+			"conteudo-enderecos",
+			"<img src=\"\"",
+			"qtde-produto",
+			"container-boxes",
+			"#container-enderecos ",
+			"container",
+			".container-enderecos",
+			".etapa3",
+			"box-passo",
+			".etap",
+			"proximo",
+			"anterior",
+			"data-proximo=",
+			"atual",
+			"a",
+			"input[type=\"radio",
+			"<a href=\"#\" class=\"remover\"></a>",
+			"container-pagamento",
+			"<a href=\"#\" class=\"qtde-mais\"></a>",
+			"#container-carrinho",
+			".etapa1",
+			"#container-carrinho",
+			"continuar",
+			"btn-continuar",
+			"#box-endereco-principal",
+			"endereco",
+			"nao-logado",
+			"span",
+			"conteudo-detalhe-pedido",
+			"atendimento",
+			" class=\"box",
+			"div",
+			"-10px",
+			"container-como-comprar",
+			"conta",
+			"#container-conta ",
+			"-conta",
+			"#container-conta ",
+			"subtitulo-cadastro",
+			"salvar-cadastro",
+			"dotted-vertical",
+			"end",
+			"sexo",
+			"estado",
+			"cidade",
+			"Sobrenome",
+			"sobrenome",
+			"CONTEUDO-PEDIDOS {",
+			"CONTEUDO-PEDIDOS ",
+			"CONTEUDO-PEDIDOS",
+			"CONTEUDO-PEDIDO ",
+			"CONTEUDO-PEDIDO",
+			"span",
+			"informacoes-pedido",
+			"=\"info\"",
+			"h2",
+			"h3",
+			"detalhes-pedido",
+			"detalhes-pedidos",
+			"detalhes-pedido",
+			"width:"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "views/templates/main.jade",
+					"settings":
+					{
+						"buffer_size": 341,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								292,
+								292
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "views/templates/internal.jade",
+					"settings":
+					{
+						"buffer_size": 98,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								82,
+								82
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "views/templates/side.jade",
+					"settings":
+					{
+						"buffer_size": 37,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37,
+								37
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "views/home/index.jade",
+					"settings":
+					{
+						"buffer_size": 105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								42,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app.js",
+					"settings":
+					{
+						"buffer_size": 376,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								200,
+								200
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 169.0,
+	"status_bar_visible": true
+}

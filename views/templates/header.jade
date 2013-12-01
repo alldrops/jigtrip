@@ -1,0 +1,20 @@
+.wrapper
+	header.main-header
+		form.search-form(action="/busca")#search-form
+			label(for="field-from-search") Pesquisar:
+			input.field-search.field-from-search(type="text", placeholder="De")#field-from-search
+			input.field-search.field-to-search(type="text", placeholder="Para")#field-to-search
+			button.btn-search(type="submit", title="Pesquisar")#btn-search
+		.settings-container
+			a.btn-settings(href="#")
+			.settings-tooltip
+				ul.dark-border
+					li
+						a(href="#") Editar perfil
+					li
+						a(href="#") Configurações
+					li
+						a(href="#") Ajuda
+				a.btn-disconnect.light-border(href="#") Desconectar
+
+

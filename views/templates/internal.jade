@@ -1,0 +1,17 @@
+//- template
+extends ../templates/main
+
+block styles
+	link(rel="stylesheet", href="../css/internals.css")
+
+block scripts
+	script(type="text/javascript", src="../js/int-global.js")
+
+block template
+
+	include ../templates/side
+	include ../templates/header
+
+	block content
+
+	include ../templates/footer

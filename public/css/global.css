@@ -1,0 +1,127 @@
+/*********************************************************************
+*  Reset
+*
+*  html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+*  v1.4 2009-07-27 | Authors: Eric Meyer & Richard Clark
+*  html5doctor.com/html-5-reset-stylesheet/
+*********************************************************************/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li, a,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section { display: block; }
+textarea { resize: none; }
+button { cursor: pointer; }
+ul, ol { list-style: outside none; }
+input, textarea { outline: 0; border: 0 none; }
+a:link, a:hover, a:focus,
+a:active, a:visited { text-decoration: none;}
+a:hover, a:focus { text-decoration: none; }
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+address, em { font-style: normal; }
+
+/* Clearfix semântico */
+
+.group { zoom: 1; }
+.group:after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+/* Desabilita seleção do bloco */
+
+.noselect {
+    -moz-user-select: none;
+    -o-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select :none;
+    user-select: none;
+}
+
+input, textarea, button {
+    font: normal normal 100%/1.5em Arial, Helvetica, sans-serif;
+    color: #1a1a1a;
+    background-color: #fff;
+    border: 1px solid #999;
+    margin: 0;
+    padding: 4px;
+}
+
+
+/*********************************************************************
+*  Definições principais
+*********************************************************************/
+
+body {
+    /* http://www.usabilitypost.com/2010/08/26/font-smoothing/ */
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    -ms-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+
+    /*
+    * 100% = 16px default dos browsers
+    * line-height: 21px ÷ 16px = 1.5em
+    *
+    * Para calcular as medidas de px para em
+    * acesse: http://riddle.pl/emcalc/
+    */
+    font: normal normal 100% Arial, Helvetica, sans-serif;
+    color: #31aa6f;
+    font-family: "SourceSansRegular";
+    background: #f2f2f2;
+    font-size: 14px;
+}
+
+/* Cor de fundo para seleção */
+::-moz-selection { background: #32aa6f; color: #fff; text-shadow: none; }
+::selection { background: #32aa6f; color: #fff; text-shadow: none; }
+
+/*
+******************************************************************
+FONT FACE
+******************************************************************
+*/
+
+@font-face {
+    font-family: 'SourceSansBold';
+    src: url('../fonts/sourcesanspro-bold-webfont.eot');
+    src: url('../fonts/sourcesanspro-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-bold-webfont.woff') format('woff'),
+         url('../fonts/sourcesanspro-bold-webfont.ttf') format('truetype'),
+         url('../fonts/sourcesanspro-bold-webfont.svg#source_sans_probold') format('svg');
+}
+
+@font-face {
+    font-family: 'SourceSansRegular';
+    src: url('../fonts/sourcesanspro-regular-webfont.eot');
+    src: url('../fonts/sourcesanspro-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/sourcesanspro-regular-webfont.woff') format('woff'),
+         url('../fonts/sourcesanspro-regular-webfont.ttf') format('truetype'),
+         url('../fonts/sourcesanspro-regular-webfont.svg#source_sans_proregular') format('svg');
+}
+
+@font-face {
+    font-family: 'FuturaBold';
+    src: url('../fonts/futura_extra_bold-webfont.eot');
+    src: url('../fonts/futura_extra_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/futura_extra_bold-webfont.woff') format('woff'),
+         url('../fonts/futura_extra_bold-webfont.ttf') format('truetype'),
+         url('../fonts/futura_extra_bold-webfont.svg#futurabold') format('svg');
+}

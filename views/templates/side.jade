@@ -1,0 +1,69 @@
+//- side
+block side
+
+	.side-container
+		.side-box.logo-container.dark-border
+			h1
+				a(href="/", title="Página Inicial")
+					img(src="img/logo-jigtrip-side.png")
+		.side-box.notifications-container.light-border
+			a.msg-icon(href="#", title="10 novas mensagens")
+				.notif-icon
+					img(src="./img/icon-messages.png")
+				= "Mensagens"
+				span.msg-qty 10
+			a.alert-icon(href="#", title="10 novos alertas")
+				.notif-icon
+					img(src="./img/icon-alerts.png")
+				= "Alertas"
+				span.alert-qty 10
+		.side-box.profile-container
+			.profile-img
+				a(href="#", title="Usuário")
+					img(src="./img/default-user-img.png")
+			.profile-name
+				h2
+					a(href="#") André Lopes
+			a.profile-edit(href="#") Edite seu perfil
+		h3.side-box.connection-title.dark-border!="Minhas conexões (<span>100</span>)"
+
+		.side-box.connection-list.light-border.dark-border
+			ul
+				li
+					a(href="#")
+						img(src="./img/default-user-img.png")
+						span.connection-name Nome usuário
+				li
+					a(href="#")
+						img(src="./img/default-user-img.png")
+						span.connection-name Nome usuário
+				li
+					a(href="#")
+						img(src="./img/default-user-img.png")
+						span.connection-name Nome usuário
+				li
+					a(href="#")
+						img(src="./img/default-user-img.png")
+						span.connection-name Nome usuário
+				li
+					a(href="#")
+						img(src="./img/default-user-img.png")
+						span.connection-name Nome usuário
+				li
+					a(href="#")
+						img(src="./img/default-user-img.png")
+						span.connection-name Nome usuário
+				li
+					a(href="#")
+						img(src="./img/default-user-img.png")
+						span.connection-name Nome usuário
+
+		.side-box.offer-container
+			h4.side-rides-title.light-border.dark-border
+				a(href="#") Caronas oferecidas
+		.side-box.ask-container
+			h4.side-rides-title.light-border.dark-border
+				a(href="#") Caronas solicitadas
+		.side-box.ranking-container
+			h4.side-rides-title.light-border.dark-border
+				a(href="#") Avaliações
