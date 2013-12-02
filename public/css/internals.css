@@ -1,3 +1,7 @@
+body {
+	background: #f2f2f2;
+}
+
 /* SIDEBAR */
 
 .side-container {
@@ -335,6 +339,7 @@
 	background: #262626;
 	border-radius: 5px;
 	display: none;
+	z-index: 10;
 	-webkit-transition: all 0.2s linear;
 	-moz-transition: all 0.2s linear;
 	-o-transition: all 0.2s linear;

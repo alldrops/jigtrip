@@ -1,12 +1,19 @@
 //- template
-extends ./main
+extends ../templates/main
 
-//- blocks
+block styles
+    link(rel="stylesheet", href="./css/externals.css")
+
+block scripts
+    script(type="text/javascript", src="./js/ext-global.js")
+
 block template
 
-    //include ../groups/main-side
-    //include ../blocks/navigation-main
+    .external-wrapper
+        .top-container
+            a.logo(href="/")
+                img(src="./img/external-logo.png", alt="JigTrip", width="200", height="200")
 
-    .main-content
+            a.btn.login(href="/login") Login
 
         block content

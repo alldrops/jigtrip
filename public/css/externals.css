@@ -1,0 +1,51 @@
+body {
+    background: url(../img/externals-bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.external-wrapper {
+    position: relative;
+    top: 0;
+    width: 940px;
+    padding: 0 10px;
+    margin: 0 auto;
+    background: rgba(0,0,0,0.2);
+}
+
+.top-container {
+    float: left;
+    width: 100%;
+    margin: 50px 0 50px 0;
+}
+
+.top-container .logo {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+}
+
+.btn {
+    font-family: 'SourceSansBold';
+    font-size: 14px;
+    color: #fff;
+    background: #31aa6f;
+    text-transform: uppercase;
+    border-radius: 3px;
+    padding: 10px 35px;
+    text-align: center;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.btn.login {
+    position: absolute;
+    right :20px;
+    top: 80px;
+}

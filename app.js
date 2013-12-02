@@ -4,9 +4,9 @@ var express = require('express'),
 
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
-app.set('view options', {
-	layout: false
-});
+app.use(express.cookieParser('jigtrip'));
+app.use(express.session());
+app.use(express.bodyParser());
 app.use(express.static(__dirname + '/public'));
 
 load('models').then('controllers').then('routes').into(app);
