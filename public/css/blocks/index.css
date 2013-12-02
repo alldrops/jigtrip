@@ -1,0 +1,16 @@
+.top-subtitle {
+    font-family: 'futurabold';
+    font-size: 35px;
+    color: #fff;
+    text-align: center;
+    float: left;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.top-desc {
+    float: left;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}

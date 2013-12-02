@@ -2,17 +2,17 @@
 extends ../templates/main
 
 block styles
-    link(rel="stylesheet", href="./css/externals.css")
 
 block scripts
-    script(type="text/javascript", src="./js/ext-global.js")
+    script(type="text/javascript", src="../js/ext-global.js")
 
 block template
 
     .external-wrapper
         .top-container
-            a.logo(href="/")
-                img(src="./img/external-logo.png", alt="JigTrip", width="200", height="200")
+            h1
+                a.logo(href="/")
+                    img(src="./img/external-logo.png", alt="JigTrip", width="200", height="200")
 
             a.btn.login(href="/login") Login
 
