@@ -92,6 +92,25 @@ body {
 ::-moz-selection { background: #32aa6f; color: #fff; text-shadow: none; }
 ::selection { background: #32aa6f; color: #fff; text-shadow: none; }
 
+/* PLACEHOLDERS */
+
+::-webkit-input-placeholder {
+   color: #31aa6f;
+}
+
+:-moz-placeholder {
+   color: #31aa6f;
+}
+
+::-moz-placeholder {
+   color: #31aa6f;
+}
+
+:-ms-input-placeholder {
+   color: #31aa6f;
+}
+
+
 /*
 ******************************************************************
 FONT FACE

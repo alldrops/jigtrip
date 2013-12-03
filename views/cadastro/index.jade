@@ -1,0 +1,42 @@
+//- template
+extends ../templates/external
+
+block styles
+	link(rel="stylesheet", href="./css/externals.css")
+	link(rel="stylesheet", href="./css/blocks/cadastro.css")
+
+//- content
+block content
+
+	a.btn.btn-top.login(href="/login") Login
+
+	.wrapper-signup
+		h2 Cadastro
+		p Inicie seu cadastro preenchendo os dados abaixo
+
+		form.signup-form(action="#", method="post")#signup-form
+			.half-form
+				input(type="text", placeholder="Nome")
+				input(type="text", placeholder="Sobrenome")
+				input(type="email", placeholder="E-mail")
+				input(type="email", placeholder="Confirmar e-mail")
+				input(type="password", placeholder="Senha")
+				input(type="password", placeholder="Confirmar senha")
+
+			.half-form.right
+				span Sexo
+				a.ico-sexo.masc(href="#", data-sexo="masculino")
+				a.ico-sexo.fem(href="#", data-sexo="feminino")
+
+				input(type="hidden", name="tiposexo")
+				input(type="text", name="datanascimento", placeholder="Data de nascimento")
+
+				label(for="aceito-termos")
+					span.ico-lembrar-senha
+					span.text-span!='Concordo com os <a href="#" class="termos-uso">termos de uso</a>'
+					input(type="checkbox", name="aceitotermos")#aceito-termos
+			button.btn.cadastrar(type="submit") Cadastrar
+
+			a.btn-voltar(href="javascript:history.back();")
+				span.ico-voltar
+				span Voltar

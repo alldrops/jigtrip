@@ -44,8 +44,8 @@ body {
     transition: 0.3s;
 }
 
-.btn.login {
+.btn.btn-top {
     position: absolute;
-    right :20px;
+    right: 20px;
     top: 80px;
 }

@@ -13,4 +13,271 @@
     width: 100%;
     text-align: center;
     color: #fff;
+    margin-bottom: 30px;
+}
+
+.connect-buttons {
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    clear: both;
+}
+
+.btn.cadastro {
+    margin: 0 auto;
+    clear: both;
+    display: block;
+    width: 145px;
+    margin-top: 10px;
+}
+
+.connect-buttons p {
+    color: #FFF;
+    font-size: 16px;
+    line-height: 25px;
+    display: block;
+}
+
+.btn-facebook {
+    position: relative;
+    font-family: 'SourceSansBold';
+    font-size: 14px;
+    color: #fff;
+    background: #2556a1;
+    text-transform: uppercase;
+    border-radius: 5px;
+    padding: 10px 35px;
+    text-align: center;
+    display: block;
+    clear: both;
+    margin: 0 auto;
+    width: 145px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.btn-facebook .icon {
+    position: absolute;
+    top: 8px;
+    left: 14px;
+    width: 11px;
+    height: 22px;
+    background: url(../../img/icon-facebook.png) no-repeat center center;
+}
+
+.wrapper-inside {
+    position: relative;
+    width: 670px;
+    margin: 0 auto;
+}
+
+.ride-search {
+    display: block;
+    margin-top: 30px;
+}
+
+.ride-search input {
+    float: left;
+    width: 293px;
+    height: 38px;
+    padding: 0 15px;
+    font-family: "SourceSansRegular";
+    font-size: 16px;
+    color: #31aa6f;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    text-align: left;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.ride-search input:focus {
+    border: 1px solid #31aa6f;
+}
+
+.ride-search input:first-child {
+    margin-right: 20px;
+}
+
+.btn-search {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border: none;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    background: url(../../img/icon-search.png) no-repeat center center #31aa6f;
+}
+
+.rides-container {
+    float: left;
+    width: 325px;
+    margin-top: 30px
+}
+
+.rides-container.offered-rides {
+    margin-left: 20px;
+}
+
+.rides-container h3 {
+    font-size: 16px;
+    color: #fff;
+    display: block;
+}
+
+.ride-item {
+    position: relative;
+    width: 325px;
+    height: 105px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: #288356;
+    overflow: hidden;
+    display: block;
+}
+
+.ride-item .ride-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 305px;
+    height: 105px;
+    background: #fff;
+    z-index: 99;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.ride-item .ride-info img {
+    border-radius: 50px;
+    float: left;
+    margin: 13px;
+}
+
+.ride-item .ride-info h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #31aa6f;
+    margin: 20px;
+}
+
+.ride-item .ride-info span {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #31aa6f;
+}
+
+.ride-item li a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 120px;
+    height: 105px;
+    z-index: 9;
+}
+
+.ride-item li .tres-marcadores {
+    position: absolute;
+    top: 40px;
+    right: 6px;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    -ms-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.ride-item li a .tres-marcadores li {
+    width: 7px;
+    height: 7px;
+    background: #fff;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+.rides-container.offered-rides ul li {
+    background: #38c27f;
+}
+
+.ride-item .ico-carona-oferecer {
+    position: absolute;
+    top: 35px;
+    right: 70px;
+    width: 27px;
+    height: 22px;
+    background: url(../../img/ico-carona-oferecer.png) no-repeat;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.ride-item .ico-carona-solicitar {
+    position: absolute;
+    top: 40px;
+    right: 70px;
+    width: 40px;
+    height: 15px;
+    background: url(../../img/ico-carona-solicitar.png) no-repeat;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -ms-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.ride-item .text-visu {
+    position: relative;
+    top: 60px;
+    left: 62px;
+    font-family: 'source_sans_proregular';
+    font-size: 12px;
+    color: #fff;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -o-transition: 0.7s;
+    -ms-transition: 0.7s;
+    transition: 0.7s;
+}
+
+/* hover */
+
+.ride-item:hover .info-carona {
+    left: -50px;
+}
+
+.ride-item:hover .tres-marcadores {
+    right: -50px;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+
+.ride-item:hover .text-visu {
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+.ride-item:hover .ico-carona-oferecer {
+    right: 19px;
+}
+
+.ride-item:hover .ico-carona-solicitar {
+    right: 17px;
 }

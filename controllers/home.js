@@ -7,7 +7,7 @@ module.exports = function(app) {
 		},
         logout: function(req, res){
             //req.session.destroy();
-            res.redirect('http://www.google.com');
+            res.redirect('/');
         }
 	};
 	return HomeController;

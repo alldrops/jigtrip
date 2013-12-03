@@ -2,11 +2,124 @@
 extends ../templates/external
 
 block styles
-    link(rel="stylesheet", href="./css/externals.css")
-    link(rel="stylesheet", href="./css/blocks/index.css")
+	link(rel="stylesheet", href="./css/externals.css")
+	link(rel="stylesheet", href="./css/blocks/index.css")
 
 //- content
 block content
 
-    h2.top-subtitle Pegar uma carona nunca foi tão fácil
-    p.top-desc Conheça pessoas, compartilhe caronas com seus amigos, de qualquer lugar, a qualquer hora
+	a.btn.btn-top.login(href="/login") Login
+
+	h2.top-subtitle Pegar uma carona nunca foi tão fácil
+	p.top-desc Conheça pessoas, compartilhe caronas, de qualquer lugar, a qualquer hora
+
+	.connect-buttons
+		a.btn.cadastro(href="/cadastro") Cadastre-se agora
+		p ou
+		a.btn-facebook(href="#")
+			span.icon
+			span Login com facebook
+
+	.wrapper-inside
+
+		form.ride-search(action="#", method="post")#ride-search
+			input(type="text", placeholder="De")
+			input(type="text", placeholder="Para")
+			a.btn-search(href="#")
+
+		.rides-preview
+			.rides-container.asked-rides
+				h3 Últimas caronas ofertadas
+				ul
+					li.ride-item
+						.ride-info
+							img(src="./img/default-user-img.png", height="80", width="80", alt="Nome de usuário")
+							h4 Londrina → Curitiba
+							span Amanhã - 10:30
+
+						a(href="#")
+							ul.tres-marcadores
+								li
+								li
+								li
+
+							span.ico-carona-oferecer
+							span.text-visu Visualizar
+
+					li.ride-item
+						.ride-info
+							img(src="./img/default-user-img.png", height="80", width="80", alt="Nome de usuário")
+							h4 Londrina → Curitiba
+							span Amanhã - 10:30
+
+						a(href="#")
+							ul.tres-marcadores
+								li
+								li
+								li
+
+							span.ico-carona-oferecer
+							span.text-visu Visualizar
+
+					li.ride-item
+						.ride-info
+							img(src="./img/default-user-img.png", height="80", width="80", alt="Nome de usuário")
+							h4 Londrina → Curitiba
+							span Amanhã - 10:30
+
+						a(href="#")
+							ul.tres-marcadores
+								li
+								li
+								li
+
+							span.ico-carona-oferecer
+							span.text-visu Visualizar
+
+			.rides-container.offered-rides
+				h3 Últimas caronas solicitadas
+				ul
+					li.ride-item
+						.ride-info
+							img(src="./img/default-user-img.png", height="80", width="80", alt="Nome de usuário")
+							h4 Londrina → Curitiba
+							span Amanhã - 10:30
+
+						a(href="#")
+							ul.tres-marcadores
+								li
+								li
+								li
+
+							span.ico-carona-oferecer
+							span.text-visu Visualizar
+
+					li.ride-item
+						.ride-info
+							img(src="./img/default-user-img.png", height="80", width="80", alt="Nome de usuário")
+							h4 Londrina → Curitiba
+							span Amanhã - 10:30
+
+						a(href="#")
+							ul.tres-marcadores
+								li
+								li
+								li
+
+							span.ico-carona-oferecer
+							span.text-visu Visualizar
+
+					li.ride-item
+						.ride-info
+							img(src="./img/default-user-img.png", height="80", width="80", alt="Nome de usuário")
+							h4 Londrina → Curitiba
+							span Amanhã - 10:30
+
+						a(href="#")
+							ul.tres-marcadores
+								li
+								li
+								li
+
+							span.ico-carona-oferecer
+							span.text-visu Visualizar

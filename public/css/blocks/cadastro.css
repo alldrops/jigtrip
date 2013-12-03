@@ -1,0 +1,196 @@
+.wrapper-signup {
+	position: relative;
+	width: 620px;
+	margin: 0 auto;
+}
+
+.wrapper-signup h2 {
+	float: left;
+	width: 100%;
+	text-align: left;
+	font-size: 24px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	font-family: "FuturaBold";
+	color: #FFF;
+}
+
+.wrapper-signup > p {
+	float: left;
+	width: 100%;
+	text-align: left;
+	font-size: 12px;
+	color: #fff;
+}
+
+.wrapper-signup .half-form {
+	float: left;
+	width: 300px;
+}
+
+.wrapper-signup .half-form.right {
+	margin-top: -25px;
+}
+
+.wrapper-signup .half-form:first-child {
+	margin-right: 20px;
+}
+
+.signup-form {
+	position: relative;
+	bottom: -50px;
+}
+
+.signup-form input {
+	float: left;
+	width: 270px;
+	height: 20px;
+	font-size: 16px;
+	text-align: left;
+	color: #31aa6f;
+	padding: 9px 16px;
+	background: #fff;
+	border-radius: 3px;
+	margin-bottom: 10px;
+}
+
+.signup-form .half-form > span {
+	float: left;
+	width: 100%;
+	text-align: left;
+	color: #fff;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+.signup-form .ico-sexo {
+	float: left;
+	width: 140px;
+	height: 190px;
+	border-radius: 3px;
+	border: 1px solid #fff;
+	margin: 0 0 0 15px;
+
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	-ms-transition: 0.3s;
+	transition: 0.3s;
+}
+
+.signup-form .ico-sexo.masc {
+	background: url(../../img/masc.png) #fff no-repeat;
+	margin-left: 0;
+}
+
+.signup-form .ico-sexo.fem {
+	background: url(../../img/fem.png) #fff no-repeat;
+}
+
+.signup-form .ico-sexo.masc.active {
+	background: url(../../img/masc-active.png) #31aa6f no-repeat;
+	border: 1px solid #31aa6f;
+}
+
+.signup-form .ico-sexo.fem.active {
+	background: url(../../img/fem-active.png) #31aa6f no-repeat;
+	border: 1px solid #31aa6f;
+}
+
+.signup-form .ico-sexo:hover {
+	border: 1px solid #31aa6f;
+}
+
+.signup-form input[name="datanascimento"] {
+	width: 265px;
+	margin: 10px 0;
+}
+
+.termos-uso {
+	text-decoration: underline;
+}
+
+.gabipuit {
+	height: 21px !important;
+}
+
+.cadastro label {
+	width: 300px !important;
+	margin: 10px 0 !important;
+}
+
+.btn.cadastrar {
+	float: left;
+	margin-top: 20px;
+	margin-left: -80px;
+}
+
+.signup-form label {
+	position: relative;
+	float: left;
+	font-size: 14px;
+	color: #fff;
+	text-align: left;
+	width: 300px;
+	margin: 10px 0 !important;
+}
+
+.ico-lembrar-senha {
+	float: left;
+	margin-right: 5px;
+	width: 20px;
+	height: 20px;
+	background: url(../../img/ico-check.png) no-repeat;
+}
+
+.ico-lembrar-senha-checked {
+	background: url(../../img/ico-check-checked.png) no-repeat !important;
+}
+
+.text-span {
+	float: left;
+	margin-top: 2px;
+	font-size: 14px;
+	color: #fff;
+	text-align: left;
+}
+
+.text-span .termos-uso {
+	text-decoration: underline;
+	color: #FFF;
+}
+
+.signup-form label input[type="checkbox"] {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	z-index: 999;
+	cursor: pointer;
+}
+
+.btn.cadastrar {
+	float: left;
+	margin-top: 20px;
+	margin-left: -80px;
+}
+
+.signup-form .btn-voltar {
+	position: absolute;
+	top: 750px;
+	right: 0;
+	font-size: 14px;
+	color: #fff;
+	text-align: right;
+}
+
+.signup-form .btn-voltar .ico-voltar {
+	float: left;
+	width: 11px;
+	height: 19px;
+	margin-right: 5px;
+	background: url(../../img/ico-voltar.png) no-repeat;
+}
