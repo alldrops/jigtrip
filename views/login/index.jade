@@ -1,0 +1,33 @@
+//- template
+extends ../templates/external
+
+block styles
+	link(rel="stylesheet", href="./css/externals.css")
+	link(rel="stylesheet", href="./css/blocks/login.css")
+
+//- content
+block content
+
+	a.btn.btn-top.cadastro(href="/cadastro") Cadastro
+
+	.wrapper-login
+		h2 Acesse sua conta
+		p Digite seus dados para acessar sua conta
+
+		form.login-form(action="#", method="post")#login-form
+			input(type="text", name="email", placeholder="E-mail")
+			input(type="password", name="senha", placeholder="Senha")
+
+			label(for="lembrar-senha")
+				span.ico-lembrar-senha
+				span.text-span Lembrar minha senha
+
+				input(type="checkbox", name="lembrarsenha")#lembrar-senha
+
+			a.esqueci-senha(href="#") Esqueci minha senha
+
+			button.btn(type="submit") Entrar
+
+			a.btn-voltar(href="/")
+				span.ico-voltar
+				span Voltar

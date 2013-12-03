@@ -1,0 +1,110 @@
+.wrapper-login {
+	width: 355px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.wrapper-login h2 {
+	float: left;
+	width: 100%;
+	text-align: left;
+	font-size: 24px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	font-family: 'futurabold';
+	color: #FFF;
+}
+
+.wrapper-login > p {
+	float: left;
+	width: 100%;
+	text-align: left;
+	font-size: 12px;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+.login-form {
+	position: relative;
+	float: left;
+}
+
+.login-form input {
+	float: left;
+	width: 320px;
+	font-size: 16px;
+	text-align: left;
+	font-family: "SourceSansRegular";
+	color: #31aa6f;
+	padding: 12px 16px 12px 16px;
+	background: #fff;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	border: 1px solid #FFF;
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	-ms-transition: 0.3s;
+	transition: 0.3s;
+}
+
+.login-form input[type="checkbox"] {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 200px;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+	z-index: 999;
+	cursor: pointer;
+}
+
+.login-form label {
+	position: relative;
+	float: left;
+	width: 50%;
+	font-size: 14px;
+	color: #fff;
+	text-align: left;
+}
+
+.ico-lembrar-senha {
+	float: left;
+	margin-right: 5px;
+	width: 20px;
+	height: 20px;
+	background: url(../../img/ico-check.png) no-repeat;
+}
+
+.login-form .esqueci-senha {
+	float: right;
+	width: 50%;
+	font-size: 14px;
+	color: #fff;
+	text-align: right;
+}
+
+.login-form button.btn {
+	float: left;
+	margin-left: -55px;
+	margin-top: 30px;
+	border: none;
+}
+
+.login-form .btn-voltar {
+	position: absolute;
+	bottom: -50px;
+	right: 0;
+	font-size: 14px;
+	color: #fff;
+	text-align: right;
+}
+
+.login-form .btn-voltar .ico-voltar {
+	float: left;
+	width: 11px;
+	height: 19px;
+	margin-right: 5px;
+	background: url(../../img/ico-voltar.png) no-repeat;
+}
