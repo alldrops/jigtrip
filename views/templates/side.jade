@@ -4,15 +4,15 @@ block side
 	.side-container
 		.side-box.logo-container.dark-border
 			h1
-				a(href="/", title="Página Inicial")
+				a(href="/home", title="Página Inicial")
 					img(src="img/logo-jigtrip-side.png")
 		.side-box.notifications-container.light-border
-			a.msg-icon(href="#", title="10 novas mensagens")
+			a.msg-icon(href="/mensagens", title="10 novas mensagens")
 				.notif-icon
 					img(src="./img/icon-messages.png")
 				= "Mensagens"
 				span.msg-qty 10
-			a.alert-icon(href="#", title="10 novos alertas")
+			a.alert-icon(href="/alertas", title="10 novos alertas")
 				.notif-icon
 					img(src="./img/icon-alerts.png")
 				= "Alertas"

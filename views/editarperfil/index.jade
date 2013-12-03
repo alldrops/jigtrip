@@ -1,0 +1,28 @@
+//- template
+extends ../templates/internal
+
+block styles
+	link(rel="stylesheet", href="./css/internals.css")
+	link(rel="stylesheet", href="./css/blocks/forms.css")
+	link(rel="stylesheet", href="./css/blocks/cadastro2.css")
+
+//- content
+block content
+
+	.page-content.signup-content
+		.wrapper
+			h2.page-title Editar perfil
+			form.signup-completion(action="#", method="post")#signup-completion
+				.left-side
+					input.small-field(type="text", name="cep", placeholder="CEP")
+					input.small-field(type="text", name="rua", placeholder="Rua")
+					input.small-field(type="text", name="numero", placeholder="Número")
+					input.small-field(type="text", name="complemento", placeholder="Complemento")
+					input.small-field(type="text", name="cidade", placeholder="Cidade")
+					input.small-field(type="text", name="estado", placeholder="Estado")
+					input.small-field(type="text", name="possui-cnh", placeholder="Possui CNH?")
+					input.small-field(type="text", name="num-cnh", placeholder="Número de Registro")
+					input.medium-field(type="text", name="perfil-face", placeholder="Perfil do Facebook")
+
+				.right-side
+					h3 Preferências
