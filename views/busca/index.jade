@@ -1,0 +1,20 @@
+//- template
+extends ../templates/internal
+
+block styles
+	link(rel="stylesheet", href="./css/internals.css")
+	link(rel="stylesheet", href="./css/blocks/rides-list.css")
+	link(rel="stylesheet", href="./css/blocks/busca.css")
+
+//- content
+block content
+
+	.page-content.search-content
+		.wrapper
+			h2.page-title Resultado da pesquisa
+			.search-params
+				label De:
+				span.value Londrina
+				label Para:
+				span.value Curitiba
+			include ../blocks/rideslist

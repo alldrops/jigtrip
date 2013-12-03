@@ -438,6 +438,14 @@ body {
 	margin-top: 50px;
 }
 
+.page-title {
+	float: left;
+	width: 100%;
+	font-family: "SourceSansBold";
+	font-size: 28px;
+	color: #32aa6f;
+}
+
 /* FOOTER BUTTONS */
 
 .main-footer {
