@@ -1,9 +1,36 @@
 //- template
 extends ../templates/internal
 
+block styles
+	link(rel="stylesheet", href="./css/internals.css")
+	link(rel="stylesheet", href="./css/blocks/forms.css")
+	link(rel="stylesheet", href="./css/blocks/solicitar-carona.css")
+
+block scripts
+	script(type="text/javascript", src="./js/solicitar-carona.js")
+
 //- content
 block content
 
 	.page-content.solicitarcarona-content
 		.wrapper
 			h2.page-title Solicitar carona
+			.container-solicitar-carona
+				h3.prefer-title Informe o tipo da carona
+
+				form.ask-ride-form(action="#", method="post")#ask-ride-form
+
+					a.btn-tipo-carona.btn-ida.ativo(href="#") Somente ida
+					a.btn-tipo-carona.btn-ida-volta(href="#") Ida e volta
+
+
+					input.form-field.small-field.left(type="text", name="nome", placeholder="Nome")
+					input.form-field.small-field(type="text", name="sobrenome", placeholder="Sobrenome")
+					input.form-field.small-field.left(type="text", name="data-nascimento", placeholder="Data de Nascimento")
+					input.form-field.small-field(type="text", name="email", placeholder="E-mail")
+					input.form-field.small-field.left(type="password", name="senha", placeholder="Senha")
+					input.form-field.small-field(type="password", name="repetir-senha", placeholder="Repetir Senha")
+
+
+
+					button.btn-submit(type="submit")#btn-submit Salvar alterações
