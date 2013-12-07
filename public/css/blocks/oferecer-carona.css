@@ -1,4 +1,4 @@
-.container-solicitar-carona {
+.container-oferecer-carona {
 	float: left;
 	width: 490px;
 }
@@ -40,4 +40,8 @@
 
 .fields-container, .container-volta {
 	display: none;
+}
+
+textarea.medium-field {
+	height: 95px;
 }

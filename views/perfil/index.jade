@@ -1,9 +1,62 @@
 //- template
 extends ../templates/internal
 
+block styles
+	link(rel="stylesheet", href="./css/internals.css")
+	link(rel="stylesheet", href="./css/blocks/perfil.css")
+
+block scripts
+	//- script(type="text/javascript", src="./js/oferecer-carona.js")
+
 //- content
 block content
 
 	.page-content.perfil-content
 		.wrapper
-			h2.page-title Perfil
+			.container-perfil
+				.info-topo
+					.img-container
+						img(src="./img/default-user-img3.png", alt="Nome de usuário")
+					.user-info
+						h2.user-name Igo Moreno
+						.reviews - 10 avaliações
+						.general-info
+							span.user-connections 200 conexões
+							span.user-location Londrina - PR
+						a.user-info-button.btn-message(href="#", title="Enviar mensagem") Enviar mensagem
+						a.user-info-button.btn-share(href="#", title="Compartilhar no Facebook") facebook
+						a.btn-conectar(href="#", title="Conectar-se à Igo")
+				.container-preferencias
+					h3.prefer-title Preferências
+					.half-prefer
+						h4.prefer-subtitle Nível de conversa
+						.boxes-prefer-container
+							a.box-prefer.prefer-conversa(href="#", data-valor="1")
+								img(src="./img/conversa-1.png", width="38", height="38")
+							a.box-prefer.prefer-conversa(href="#", data-valor="2")
+								img(src="./img/conversa-2.png", width="38", height="38")
+
+					.half-prefer
+						h4.prefer-subtitle Tolerância a cigarro
+						.boxes-prefer-container
+							a.box-prefer.prefer-cigarro(href="#", data-valor="1")
+								img(src="./img/cigarro-1.png", width="38", height="38")
+
+					.half-prefer
+						h4.prefer-subtitle Gosto por música
+						.boxes-prefer-container
+							a.box-prefer.prefer-musica(href="#", data-valor="1")
+								img(src="./img/musica-1.png", width="38", height="38")
+							a.box-prefer.prefer-musica(href="#", data-valor="2")
+								img(src="./img/musica-2.png", width="38", height="38")
+							a.box-prefer.prefer-musica(href="#", data-valor="3")
+								img(src="./img/musica-3.png", width="38", height="38")
+							input(type="hidden")#field-musica
+
+					.half-prefer
+						h4.prefer-subtitle Tolerância a animais
+						.boxes-prefer-container
+							a.box-prefer.prefer-animais(href="#", data-valor="1")
+								img(src="./img/animais-1.png", width="38", height="38")
+							a.box-prefer.prefer-animais(href="#", data-valor="2")
+								img(src="./img/animais-2.png", width="38", height="38")

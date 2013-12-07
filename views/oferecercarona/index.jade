@@ -1,9 +1,44 @@
 //- template
 extends ../templates/internal
 
+block styles
+	link(rel="stylesheet", href="./css/internals.css")
+	link(rel="stylesheet", href="./css/blocks/forms.css")
+	link(rel="stylesheet", href="./css/blocks/oferecer-carona.css")
+
+block scripts
+	script(type="text/javascript", src="./js/oferecer-carona.js")
+
 //- content
 block content
 
 	.page-content.oferecercarona-content
 		.wrapper
 			h2.page-title Oferecer carona
+			.container-oferecer-carona
+				h3.prefer-title Informe o tipo da carona
+
+				form.ask-ride-form(action="#", method="post")#ask-ride-form
+
+					a.btn-tipo-carona.btn-ida(href="#") Somente ida
+					a.btn-tipo-carona.btn-ida-volta(href="#") Ida e volta
+
+					.fields-container
+						input.form-field.small-field.left(type="text", name="de", placeholder="De")
+						input.form-field.small-field(type="text", name="para", placeholder="Para")
+						input.form-field.small-field.left(type="text", name="data", placeholder="Data")
+						input.form-field.small-field(type="text", name="hora", placeholder="Hora")
+
+					.container-volta
+						input.form-field.small-field.left(type="text", name="datavolta", placeholder="Data da volta")
+						input.form-field.small-field(type="text", name="horavolta", placeholder="Hora da volta")
+
+					.fields-container
+						input.form-field.small-field.left(type="text", name="tolerancia", placeholder="Tolerância de atraso")
+						input.form-field.small-field(type="text", name="preco", placeholder="Valor por passageiro")
+						textarea.form-field.medium-field(name="pontosparada", placeholder="Possíveis pontos de parada")
+
+						input.form-field.small-field.left(type="text", name="lugares", placeholder="Número de lugares")
+						input.form-field.small-field(type="text", name="desvio", placeholder="Tempo máximo de desvio")
+						input.form-field.medium-field(type="text", name="bagagem", placeholder="Máximo de bagagem")
+						button.btn-submit(type="submit")#btn-submit Enviar oferta

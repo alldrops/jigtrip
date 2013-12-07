@@ -20,17 +20,18 @@ block content
 
 				form.ask-ride-form(action="#", method="post")#ask-ride-form
 
-					a.btn-tipo-carona.btn-ida.ativo(href="#") Somente ida
+					a.btn-tipo-carona.btn-ida(href="#") Somente ida
 					a.btn-tipo-carona.btn-ida-volta(href="#") Ida e volta
 
 					.fields-container
-					input.form-field.small-field.left(type="text", name="nome", placeholder="Nome")
-					input.form-field.small-field(type="text", name="sobrenome", placeholder="Sobrenome")
-					input.form-field.small-field.left(type="text", name="data-nascimento", placeholder="Data de Nascimento")
-					input.form-field.small-field(type="text", name="email", placeholder="E-mail")
-					input.form-field.small-field.left(type="password", name="senha", placeholder="Senha")
-					input.form-field.small-field(type="password", name="repetir-senha", placeholder="Repetir Senha")
+						input.form-field.small-field.left(type="text", name="de", placeholder="De")
+						input.form-field.small-field(type="text", name="para", placeholder="Para")
+						input.form-field.small-field.left(type="text", name="data", placeholder="Data")
+						input.form-field.small-field(type="text", name="hora", placeholder="Hora")
 
+					.container-volta
+						input.form-field.small-field.left(type="text", name="datavolta", placeholder="Data da volta")
+						input.form-field.small-field(type="text", name="horavolta", placeholder="Hora da volta")
 
-
-					button.btn-submit(type="submit")#btn-submit Salvar alterações
+					.fields-container
+						button.btn-submit(type="submit")#btn-submit Enviar solicitação
