@@ -6,6 +6,9 @@ block styles
 	link(rel="stylesheet", href="./css/blocks/forms.css")
 	link(rel="stylesheet", href="./css/blocks/cadastro2.css")
 
+block scripts
+	script(type="text/javascript", src="./js/cadastro2.js")
+
 //- content
 block content
 
@@ -14,15 +17,60 @@ block content
 			h2.page-title Completar cadastro
 			form.signup-completion(action="#", method="post")#signup-completion
 				.left-side
-					input.small-field(type="text", name="cep", placeholder="CEP")
-					input.small-field(type="text", name="rua", placeholder="Rua")
-					input.small-field(type="text", name="numero", placeholder="Número")
-					input.small-field(type="text", name="complemento", placeholder="Complemento")
-					input.small-field(type="text", name="cidade", placeholder="Cidade")
-					input.small-field(type="text", name="estado", placeholder="Estado")
-					input.small-field(type="text", name="possui-cnh", placeholder="Possui CNH?")
-					input.small-field(type="text", name="num-cnh", placeholder="Número de Registro")
-					input.medium-field(type="text", name="perfil-face", placeholder="Perfil do Facebook")
+					input.form-field.small-field.left(type="text", name="cep", placeholder="CEP")
+					input.form-field.small-field(type="text", name="rua", placeholder="Rua")
+					input.form-field.small-field.left(type="text", name="numero", placeholder="Número")
+					input.form-field.small-field(type="text", name="complemento", placeholder="Complemento")
+					input.form-field.small-field.left(type="text", name="cidade", placeholder="Cidade")
+					input.form-field.small-field(type="text", name="estado", placeholder="Estado")
+					input.form-field.small-field.left(type="text", name="possui-cnh", placeholder="Possui CNH?")
+					input.form-field.small-field(type="text", name="num-cnh", placeholder="Número de Registro")
+					input.form-field.medium-field(type="text", name="perfil-face", placeholder="Perfil do Facebook")
 
 				.right-side
-					h3 Preferências
+					h3.prefer-title Preferências
+					.half-prefer
+						h4.prefer-subtitle Nível de conversa
+						.boxes-prefer-container
+							a.box-prefer.prefer-conversa(href="#", data-valor="1")
+								img(src="./img/conversa-1.png", width="38", height="38")
+							a.box-prefer.prefer-conversa(href="#", data-valor="2")
+								img(src="./img/conversa-2.png", width="38", height="38")
+							a.box-prefer.prefer-conversa(href="#", data-valor="3")
+								img(src="./img/conversa-3.png", width="38", height="38")
+							input(type="hidden")#field-conversa
+
+					.half-prefer
+						h4.prefer-subtitle Tolerância a cigarro
+						.boxes-prefer-container
+							a.box-prefer.prefer-cigarro(href="#", data-valor="1")
+								img(src="./img/cigarro-1.png", width="38", height="38")
+							a.box-prefer.prefer-cigarro(href="#", data-valor="2")
+								img(src="./img/cigarro-2.png", width="38", height="38")
+							a.box-prefer.prefer-cigarro(href="#", data-valor="3")
+								img(src="./img/cigarro-3.png", width="38", height="38")
+							input(type="hidden")#field-cigarro
+
+					.half-prefer
+						h4.prefer-subtitle Gosto por música
+						.boxes-prefer-container
+							a.box-prefer.prefer-musica(href="#", data-valor="1")
+								img(src="./img/musica-1.png", width="38", height="38")
+							a.box-prefer.prefer-musica(href="#", data-valor="2")
+								img(src="./img/musica-2.png", width="38", height="38")
+							a.box-prefer.prefer-musica(href="#", data-valor="3")
+								img(src="./img/musica-3.png", width="38", height="38")
+							input(type="hidden")#field-musica
+
+					.half-prefer
+						h4.prefer-subtitle Tolerância a animais
+						.boxes-prefer-container
+							a.box-prefer.prefer-animais(href="#", data-valor="1")
+								img(src="./img/animais-1.png", width="38", height="38")
+							a.box-prefer.prefer-animais(href="#", data-valor="2")
+								img(src="./img/animais-2.png", width="38", height="38")
+							a.box-prefer.prefer-animais(href="#", data-valor="3")
+								img(src="./img/animais-3.png", width="38", height="38")
+							input(type="hidden")#field-animais
+
+				button.btn-submit(type="submit")#btn-submit Finalizar cadastro

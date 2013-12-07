@@ -1,0 +1,20 @@
+.container-alertas {
+	float: left;
+	width: 930px;
+	overflow: auto;
+	height: 600px;
+}
+
+.container-alertas ul li {
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.container-alertas ul li p {
+	color: #929292;
+}
+
+.container-alertas ul li p a {
+	color: #32aa6f;
+}
