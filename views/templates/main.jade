@@ -8,16 +8,23 @@ html(class='no-js')
 		meta(name='viewport', content='width=device-width, initial-scale=1.0')
 		link(rel="icon", href="img/favicon.ico")
 
-		title JigTrip
+		title jigTrip | Pegar uma carona nunca foi tão fácil
 
 		//- Styles
 		link(rel="stylesheet", href="./css/global.css")
+		link(rel="stylesheet", href="./css/blocks/browseralert.css")
 		block styles
 
 	body
-
+		.mask-loader
+		.light-boxes
+			
 		block template
+
+		include ../blocks/browseralert
 
 		//- Scripts
 		script(type="text/javascript", src="../js/libs/jquery-2.0.2.min.js")
+		script(type="text/javascript", src="../js/browseralert.js")
+		script(type="text/javascript", src="../js/libs/scrollpane.js")
 		block scripts

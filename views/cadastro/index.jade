@@ -4,6 +4,7 @@ extends ../templates/external
 block styles
 	link(rel="stylesheet", href="./css/externals.css")
 	link(rel="stylesheet", href="./css/blocks/cadastro.css")
+	link(rel="stylesheet", href="./css/blocks/login.css")
 
 //- content
 block content
@@ -33,10 +34,59 @@ block content
 
 				label(for="aceito-termos")
 					span.ico-lembrar-senha
-					span.text-span!='Concordo com os <a href="#" class="termos-uso">termos de uso</a>'
-					input(type="checkbox", name="aceitotermos")#aceito-termos
+					span.text-span!='Concordo com os <a href="#" class="termos termos-uso">termos de uso</a>'
+					input.aceito-termos(type="checkbox", name="aceitotermos")
 			button.btn.cadastrar(type="submit") Cadastrar
 
 			a.btn-voltar(href="/")
 				span.ico-voltar
 				span Voltar
+
+		#termos
+			h2 Termos de uso
+			span Leia com atenção os termos de uso
+
+			.wrap-termos.scroll-lindo
+				p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim dolor, fermentum sed lobortis in, mattis vitae nulla. Phasellus rutrum, est et ultrices hendrerit, leo urna pharetra lorem, ac semper leo lorem aliquet erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at gravida mi. Aliquam volutpat molestie fringilla. Nullam quam urna, pretium in dolor et, aliquet malesuada tortor. Phasellus quis faucibus justo, eget vulputate dolor. Ut dui risus, porttitor in euismod non, commodo ut mauris. Donec interdum tempus quam ultricies pulvinar.
+
+				p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim dolor, fermentum sed lobortis in, mattis vitae nulla. Phasellus rutrum, est et ultrices hendrerit, leo urna pharetra lorem, ac semper leo lorem aliquet erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at gravida mi. Aliquam volutpat molestie fringilla. Nullam quam urna, pretium in dolor et, aliquet malesuada tortor. Phasellus quis faucibus justo, eget vulputate dolor. Ut dui risus, porttitor in euismod non, commodo ut mauris. Donec interdum tempus quam ultricies pulvinar.
+
+				p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim dolor, fermentum sed lobortis in, mattis vitae nulla. Phasellus rutrum, est et ultrices hendrerit, leo urna pharetra lorem, ac semper leo lorem aliquet erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at gravida mi. Aliquam volutpat molestie fringilla. Nullam quam urna, pretium in dolor et, aliquet malesuada tortor. Phasellus quis faucibus justo, eget vulputate dolor. Ut dui risus, porttitor in euismod non, commodo ut mauris. Donec interdum tempus quam ultricies pulvinar.
+
+				p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim dolor, fermentum sed lobortis in, mattis vitae nulla. Phasellus rutrum, est et ultrices hendrerit, leo urna pharetra lorem, ac semper leo lorem aliquet erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at gravida mi. Aliquam volutpat molestie fringilla. Nullam quam urna, pretium in dolor et, aliquet malesuada tortor. Phasellus quis faucibus justo, eget vulputate dolor. Ut dui risus, porttitor in euismod non, commodo ut mauris. Donec interdum tempus quam ultricies pulvinar.
+
+				p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim dolor, fermentum sed lobortis in, mattis vitae nulla. Phasellus rutrum, est et ultrices hendrerit, leo urna pharetra lorem, ac semper leo lorem aliquet erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at gravida mi. Aliquam volutpat molestie fringilla. Nullam quam urna, pretium in dolor et, aliquet malesuada tortor. Phasellus quis faucibus justo, eget vulputate dolor. Ut dui risus, porttitor in euismod non, commodo ut mauris. Donec interdum tempus quam ultricies pulvinar.
+
+				p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim dolor, fermentum sed lobortis in, mattis vitae nulla. Phasellus rutrum, est et ultrices hendrerit, leo urna pharetra lorem, ac semper leo lorem aliquet erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at gravida mi. Aliquam volutpat molestie fringilla. Nullam quam urna, pretium in dolor et, aliquet malesuada tortor. Phasellus quis faucibus justo, eget vulputate dolor. Ut dui risus, porttitor in euismod non, commodo ut mauris. Donec interdum tempus quam ultricies pulvinar.
+
+				p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim dolor, fermentum sed lobortis in, mattis vitae nulla. Phasellus rutrum, est et ultrices hendrerit, leo urna pharetra lorem, ac semper leo lorem aliquet erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at gravida mi. Aliquam volutpat molestie fringilla. Nullam quam urna, pretium in dolor et, aliquet malesuada tortor. Phasellus quis faucibus justo, eget vulputate dolor. Ut dui risus, porttitor in euismod non, commodo ut mauris. Donec interdum tempus quam ultricies pulvinar.
+
+				p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim dolor, fermentum sed lobortis in, mattis vitae nulla. Phasellus rutrum, est et ultrices hendrerit, leo urna pharetra lorem, ac semper leo lorem aliquet erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at gravida mi. Aliquam volutpat molestie fringilla. Nullam quam urna, pretium in dolor et, aliquet malesuada tortor. Phasellus quis faucibus justo, eget vulputate dolor. Ut dui risus, porttitor in euismod non, commodo ut mauris. Donec interdum tempus quam ultricies pulvinar.
+
+				p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim dolor, fermentum sed lobortis in, mattis vitae nulla. Phasellus rutrum, est et ultrices hendrerit, leo urna pharetra lorem, ac semper leo lorem aliquet erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at gravida mi. Aliquam volutpat molestie fringilla. Nullam quam urna, pretium in dolor et, aliquet malesuada tortor. Phasellus quis faucibus justo, eget vulputate dolor. Ut dui risus, porttitor in euismod non, commodo ut mauris. Donec interdum tempus quam ultricies pulvinar.
+
+				p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim dolor, fermentum sed lobortis in, mattis vitae nulla. Phasellus rutrum, est et ultrices hendrerit, leo urna pharetra lorem, ac semper leo lorem aliquet erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at gravida mi. Aliquam volutpat molestie fringilla. Nullam quam urna, pretium in dolor et, aliquet malesuada tortor. Phasellus quis faucibus justo, eget vulputate dolor. Ut dui risus, porttitor in euismod non, commodo ut mauris. Donec interdum tempus quam ultricies pulvinar.
+
+				p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim dolor, fermentum sed lobortis in, mattis vitae nulla. Phasellus rutrum, est et ultrices hendrerit, leo urna pharetra lorem, ac semper leo lorem aliquet erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at gravida mi. Aliquam volutpat molestie fringilla. Nullam quam urna, pretium in dolor et, aliquet malesuada tortor. Phasellus quis faucibus justo, eget vulputate dolor. Ut dui risus, porttitor in euismod non, commodo ut mauris. Donec interdum tempus quam ultricies pulvinar.
+
+				p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim dolor, fermentum sed lobortis in, mattis vitae nulla. Phasellus rutrum, est et ultrices hendrerit, leo urna pharetra lorem, ac semper leo lorem aliquet erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at gravida mi. Aliquam volutpat molestie fringilla. Nullam quam urna, pretium in dolor et, aliquet malesuada tortor. Phasellus quis faucibus justo, eget vulputate dolor. Ut dui risus, porttitor in euismod non, commodo ut mauris. Donec interdum tempus quam ultricies pulvinar.
+
+				p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim dolor, fermentum sed lobortis in, mattis vitae nulla. Phasellus rutrum, est et ultrices hendrerit, leo urna pharetra lorem, ac semper leo lorem aliquet erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at gravida mi. Aliquam volutpat molestie fringilla. Nullam quam urna, pretium in dolor et, aliquet malesuada tortor. Phasellus quis faucibus justo, eget vulputate dolor. Ut dui risus, porttitor in euismod non, commodo ut mauris. Donec interdum tempus quam ultricies pulvinar.
+
+				p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim dolor, fermentum sed lobortis in, mattis vitae nulla. Phasellus rutrum, est et ultrices hendrerit, leo urna pharetra lorem, ac semper leo lorem aliquet erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at gravida mi. Aliquam volutpat molestie fringilla. Nullam quam urna, pretium in dolor et, aliquet malesuada tortor. Phasellus quis faucibus justo, eget vulputate dolor. Ut dui risus, porttitor in euismod non, commodo ut mauris. Donec interdum tempus quam ultricies pulvinar.
+
+				p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim dolor, fermentum sed lobortis in, mattis vitae nulla. Phasellus rutrum, est et ultrices hendrerit, leo urna pharetra lorem, ac semper leo lorem aliquet erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at gravida mi. Aliquam volutpat molestie fringilla. Nullam quam urna, pretium in dolor et, aliquet malesuada tortor. Phasellus quis faucibus justo, eget vulputate dolor. Ut dui risus, porttitor in euismod non, commodo ut mauris. Donec interdum tempus quam ultricies pulvinar.
+
+				p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim dolor, fermentum sed lobortis in, mattis vitae nulla. Phasellus rutrum, est et ultrices hendrerit, leo urna pharetra lorem, ac semper leo lorem aliquet erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at gravida mi. Aliquam volutpat molestie fringilla. Nullam quam urna, pretium in dolor et, aliquet malesuada tortor. Phasellus quis faucibus justo, eget vulputate dolor. Ut dui risus, porttitor in euismod non, commodo ut mauris. Donec interdum tempus quam ultricies pulvinar.
+
+				p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim dolor, fermentum sed lobortis in, mattis vitae nulla. Phasellus rutrum, est et ultrices hendrerit, leo urna pharetra lorem, ac semper leo lorem aliquet erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at gravida mi. Aliquam volutpat molestie fringilla. Nullam quam urna, pretium in dolor et, aliquet malesuada tortor. Phasellus quis faucibus justo, eget vulputate dolor. Ut dui risus, porttitor in euismod non, commodo ut mauris. Donec interdum tempus quam ultricies pulvinar.
+
+				p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim dolor, fermentum sed lobortis in, mattis vitae nulla. Phasellus rutrum, est et ultrices hendrerit, leo urna pharetra lorem, ac semper leo lorem aliquet erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at gravida mi. Aliquam volutpat molestie fringilla. Nullam quam urna, pretium in dolor et, aliquet malesuada tortor. Phasellus quis faucibus justo, eget vulputate dolor. Ut dui risus, porttitor in euismod non, commodo ut mauris. Donec interdum tempus quam ultricies pulvinar.
+
+				p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim dolor, fermentum sed lobortis in, mattis vitae nulla. Phasellus rutrum, est et ultrices hendrerit, leo urna pharetra lorem, ac semper leo lorem aliquet erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at gravida mi. Aliquam volutpat molestie fringilla. Nullam quam urna, pretium in dolor et, aliquet malesuada tortor. Phasellus quis faucibus justo, eget vulputate dolor. Ut dui risus, porttitor in euismod non, commodo ut mauris. Donec interdum tempus quam ultricies pulvinar.
+
+				p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim dolor, fermentum sed lobortis in, mattis vitae nulla. Phasellus rutrum, est et ultrices hendrerit, leo urna pharetra lorem, ac semper leo lorem aliquet erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at gravida mi. Aliquam volutpat molestie fringilla. Nullam quam urna, pretium in dolor et, aliquet malesuada tortor. Phasellus quis faucibus justo, eget vulputate dolor. Ut dui risus, porttitor in euismod non, commodo ut mauris. Donec interdum tempus quam ultricies pulvinar.
+
+				p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce enim dolor, fermentum sed lobortis in, mattis vitae nulla. Phasellus rutrum, est et ultrices hendrerit, leo urna pharetra lorem, ac semper leo lorem aliquet erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam at gravida mi. Aliquam volutpat molestie fringilla. Nullam quam urna, pretium in dolor et, aliquet malesuada tortor. Phasellus quis faucibus justo, eget vulputate dolor. Ut dui risus, porttitor in euismod non, commodo ut mauris. Donec interdum tempus quam ultricies pulvinar.
+
+			span.fechar-boxes.recupera X

@@ -108,6 +108,9 @@
 
 .termos-uso {
 	text-decoration: underline;
+	color: #FFF;
+	position: relative;
+	z-index: 1;
 }
 
 .gabipuit {
@@ -194,4 +197,85 @@
 	height: 19px;
 	margin-right: 5px;
 	background: url(../../img/ico-voltar.png) no-repeat;
+}
+
+form input {
+	border: 1px solid #fff;
+	
+	-webkit-transition: 0.3s;
+	-moz-transition: 0.3s;
+	-o-transition: 0.3s;
+	-ms-transition: 0.3s;
+	transition: 0.3s;
+}
+
+form input:focus {
+	border: 1px solid #31aa6f !important;
+}
+
+input {
+	font-family: "SourceSansRegular" !important;
+}
+
+/**TERMOS DE USO**/
+#termos {
+	position: absolute;
+	top: 80px;
+	left: -240px;
+	width: 500px;
+	height: 550px;
+	padding: 15px;
+	border-radius: 3px;
+	color: #FFF;
+	background: #31aa6f;
+	z-index: 9999;
+
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+}
+
+#termos.inverse {
+	position: relative;
+	float: left;
+	margin-left: 200px;
+}
+
+#termos h2 {
+	font-family: 'futurabold';
+	font-size: 15px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#termos span {
+	font-family: "SourceSansRegular";
+	font-size: 14px;
+	color: #fff;
+	margin-bottom: 15px;
+	display: block;
+}
+
+.scroll-lindo {
+	height: 500px;
+}
+
+#termos p {
+	float: left;
+	width: 500px;
+	font-family: "SourceSansRegular";
+	font-size: 14px;
+	color: #fff;
+}
+
+#termos .jspTrack {
+	background: #31aa6f;
+}
+
+#termos .jspDrag {
+	background-color: rgb(255, 255, 255);
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
 }

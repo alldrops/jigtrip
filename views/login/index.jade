@@ -4,6 +4,7 @@ extends ../templates/external
 block styles
 	link(rel="stylesheet", href="./css/externals.css")
 	link(rel="stylesheet", href="./css/blocks/login.css")
+	link(rel="stylesheet", href="./css/blocks/cadastro.css")
 
 //- content
 block content
@@ -31,3 +32,15 @@ block content
 			a.btn-voltar(href="/")
 				span.ico-voltar
 				span Voltar
+
+	//-RECUPERAR SENHA
+	.recuperar-senha
+		h2 Recuperar senha
+		span Você recebera sua senha no e-mail
+
+		form(action="#", method="post")
+			input(type="text", name="email-recuperar", placeholder="E-mail")
+
+			button.btn.inverse(type="submit") Enviar
+
+		span.fechar-boxes.recupera X

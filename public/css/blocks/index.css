@@ -238,23 +238,6 @@
     transition: 0.3s;
 }
 
-.ride-item .text-visu {
-    position: relative;
-    top: 60px;
-    left: 62px;
-    font-family: 'source_sans_proregular';
-    font-size: 12px;
-    color: #fff;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-    opacity: 0;
-    -webkit-transition: 0.7s;
-    -moz-transition: 0.7s;
-    -o-transition: 0.7s;
-    -ms-transition: 0.7s;
-    transition: 0.7s;
-}
-
 /* hover */
 
 .ride-item:hover .info-carona {
