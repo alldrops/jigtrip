@@ -1,0 +1,107 @@
+.form-field {
+	float: left;
+	padding: 0 10px;
+	height: 38px;
+	background: #FFF;
+	border: 1px solid #cecece;
+	color: #32aa6f;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.form-field:focus {
+	border: 1px solid #31aa6f;
+}
+
+.form-field.left {
+	margin-right: 10px;
+}
+
+.small-field {
+	width: 218px;
+}
+
+.medium-field {
+	width: 468px;
+}
+
+.left-side {
+	float: left;
+	width: 490px;
+}
+
+.right-side {
+	float: right;
+	width: 450px;
+}
+
+.prefer-title {
+	float: left;
+	width: 100%;
+	height: 38px;
+	border: 1px solid #cecece;
+	background: #FFF;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 40px;
+	font-family: "SourceSansBold";
+	text-transform: uppercase;
+	color: #262626;
+	font-size: 20px;
+}
+
+.half-prefer {
+	float: left;
+	width: 225px;
+	margin-top: 25px;
+}
+
+.boxes-prefer-container {
+	float: left;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.boxes-prefer-container a {
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	width: 38px;
+	height: 38px;
+	border: 1px solid #a5a5a5;
+}
+
+.boxes-prefer-container a:first-child {
+	margin-left: 15px;
+}
+
+.boxes-prefer-container a.active {
+	border: 1px solid #31aa6f;
+}
+
+h4.prefer-subtitle {
+	float: left;
+	clear: both;
+	text-align: left;
+	padding-left: 15px;
+	font-family: "SourceSansBold";
+	color: #a5a5a5;
+	text-transform: uppercase;
+}
+
+.btn-submit {
+	border: none;
+	display: block;
+	float: left;
+	padding: 0 30px;
+	background: #31aa6f;
+	text-transform: uppercase;
+	font-family: "SourceSansBold";
+	color: #FFF;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 5px;
+	margin-left: 420px;
+	margin-top: 30px;
+}
