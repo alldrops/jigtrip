@@ -1,0 +1,78 @@
+.btn-nova-mensagem {
+	position: absolute;
+	right: 30px;
+	top: 0;
+	height: 40px;
+	color: #FFF;
+	line-height: 40px;
+	font-family: "SourceSansBold";
+	text-transform: uppercase;
+	background: #31aa6f;
+	text-align: center;
+	border-radius: 5px;
+	padding: 0 10px 0 35px;
+}
+
+.btn-nova-mensagem:before {
+	position: absolute;
+	content: "+";
+	left: 7px;
+	top: 8px;
+	width: 21px;
+	height: 21px;
+	color: #FFF;
+	border: 1px solid #FFF;
+	text-align: center;
+	line-height: 23px;
+	font-size: 20px;
+	border-radius: 11px;
+}
+
+.container-mensagens {
+	float: left;
+	width: 940px;
+	height: 600px;
+	overflow-y: auto;
+}
+
+.container-mensagens li {
+	float: left;
+	width: 888px;
+	padding: 20px;
+	background: #FFF;
+	border: 1px solid #d1d1d1;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.container-mensagens li img {
+	float: left;
+	width: 40px;
+	height: 40px;
+	margin-right: 20px;
+}
+
+.container-mensagens li .msg-user-name {
+	float: left;
+	width: 105px;
+	margin-right: 20px;
+	margin-top: 10px;
+	font-family: "SourceSansBold";
+	font-size: 16px;
+	color: #cfcfcf;
+}
+
+.container-mensagens li .msg-text {
+	float: left;
+	width: 550px;
+	color: #cfcfcf;
+	margin-right: 20px;
+}
+
+.container-mensagens li .msg-time {
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+	font-family: "SourceSansBold";
+	color: #cfcfcf;
+}
