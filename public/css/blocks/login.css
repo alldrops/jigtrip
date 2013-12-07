@@ -184,3 +184,110 @@
 
 	display: none;
 }
+
+/**jSCROLL PANE**/
+.scroll-pane {
+    width: 100%;
+    height: 130px;
+    overflow: auto;
+}
+.horizontal-only {
+    height: auto;
+    max-height: 130px;
+}
+
+.jspContainer {
+   overflow: hidden !important;
+   position: relative !important;
+   float: none !important;
+}
+
+.jspPane {
+   position: absolute !important;
+   float: none !important;
+}
+
+.jspVerticalBar {
+   position: absolute !important;
+   right: 0 !important;
+   width: 7px !important;
+   height: 100% !important;
+   background: #FFF !important;
+   float: none !important;
+}
+
+.jspHorizontalBar {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 3px;
+   background: #FFF;
+}
+
+.jspCap {
+   display: none;
+}
+
+.jspTrack {
+   position: relative;
+   background: #FFF;
+}
+
+.jspDrag {
+   position: relative;
+   top: 0;
+   left: 0;
+   cursor: pointer;
+   background: #898989;
+}
+
+.jspHorizontalBar .jspDrag {
+   height: 0px !important;
+   display: none;
+}
+
+.jspCorner {
+   background: #eeeef4;
+   float: left;
+   height: 100%;
+}
+
+/* Yuk! CSS Hack for IE6 3 pixel bug  */
+
+* html .jspCorner{
+   margin: 0 -3px 0 0;
+}
+
+/**\\--CLOUDZOOM--//**/
+.cloud-zoom-lens {
+    border: 4px solid #888;
+    margin:-4px;
+    background-color:#fff;  
+    cursor:move;        
+}
+
+.cloud-zoom-title {
+    font-family:Arial, Helvetica, sans-serif;
+    position:absolute !important;
+    background-color:#000;
+    color:#fff;
+    padding:3px;
+    width:100%;
+    text-align:center;  
+    font-weight:bold;
+    font-size:10px;
+    top:0px;
+}
+
+.cloud-zoom-big {
+    border:4px solid #ccc;
+    overflow:hidden;
+}
+
+.cloud-zoom-loading {
+    color:white;    
+    background:#222;
+    padding:3px;
+    border:1px solid #000;
+}

@@ -77,9 +77,14 @@
 
 		$('.light-boxes').fadeIn(function() {
 
-			$('.recuperar-senha , #termos').stop().animate({
+			$('.recuperar-senha').stop().animate({
 				opacity: 1,
 				left : 225
+			});
+
+			$('#termos').stop().animate({
+				opacity: 1,
+				left: 45
 			});
 		});
 	});
