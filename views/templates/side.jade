@@ -123,6 +123,10 @@ block side
 		.side-box.ranking-container
 			h4.side-rides-title.light-border.dark-border
 				a(href="/perfil") Avaliações
+		.side-box.car-container
+			h4.side-rides-title.light-border.dark-border
+				a.cadastrar-veiculo(href="/perfil") Cadastro de veículo
+
 
 	.light-box-dados
 
@@ -231,12 +235,12 @@ block side
 			img(src="./img/img-cadastro-veiculo.png")
 		.box-internal-pop-cont3
 			.bloco-a
-				input.tam1
-				input.tam2
-				input.tam2
-				input.tam1
+				input.tam1(type="text" name="name" placeholder="Marca")
+				input.tam2.mr10px-dmro(type="text" name="name" placeholder="Cor")
+				input.tam2(type="text" name="name" placeholder="Ano")
+				input.tam1(type="text" name="name" placeholder="Placa")
 			.bloco-b
-				input.tam1
-				input.tam1
-				input.tam1
+				input.tam1(type="text" name="name" placeholder="Modelo")
+				input.tam1(type="text" name="name" placeholder="Estado de registro")
+				input.tam1(type="text" name="name" placeholder="Cidade de registro")
 		a.btn-cadastrar-veiculo Cadastrar

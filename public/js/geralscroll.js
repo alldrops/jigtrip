@@ -73,3 +73,37 @@ $('.light-box-dados , .fechar-pop2').on('click', function(event) {
 	$('.light-box-dados').removeClass('zindex1');
 	$('.box-pop2').removeClass('zindex2');
 });
+
+
+$('.cadastrar-veiculo').on('click', function(event) {
+
+	event.preventDefault();
+
+	$('.light-box-dados').addClass('zindex1');
+	$('.box-pop3').addClass('zindex2');
+
+	setTimeout(function() {
+		$('.light-box-dados').stop().animate({
+			opacity: 1
+		});
+		$('.box-pop3').stop().animate({
+			opacity: 1
+		});
+	},500);
+});
+
+$('.light-box-dados , .fechar-pop3').on('click', function(event) {
+
+	event.preventDefault();
+
+	$('.light-box-dados').stop().animate({
+		opacity: 0
+	},200);
+
+	$('.box-pop3').stop().animate({
+		opacity: 0
+	},200);
+
+	$('.light-box-dados').removeClass('zindex1');
+	$('.box-pop3').removeClass('zindex2');
+});
